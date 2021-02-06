@@ -6,7 +6,7 @@ const Author=require('./api/routes/author');
 const PORT=8080;
 app.use(bodyparser.json());
 
-mongoose.connect('mongodb+srv://tabish:ttt444666@shop-api-lycpn.mongodb.net/test?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://tabish:<password>@shop-api-lycpn.mongodb.net/test?retryWrites=true&w=majority');
 
 
 //middleware for author
